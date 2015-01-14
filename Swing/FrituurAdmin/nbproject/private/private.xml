@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/DAL/CategoryDal.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/Services/CategoryService.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/DAL/ProductDal.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/BO/Category.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/BO/Product.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/BO/Bestelling.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/DAL/BestellingDal.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/Services/BestellingService.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/BestellingAdmin/JFrameBestelling.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/ProductAdmin/Main.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/CategoryAdmin/JFrameCategory.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/CategoryAdmin/CategoryVerandering.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/CategoryAdmin/CategoryUpdate.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/ProductAdmin/JFrameProduct.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/ProductAdmin/ProductVerandering.java</file>
+            <file>file:/D:/informatica/programmeren%204%20java/projectwerk/FrituurAdmin/src/ProductAdmin/ProductUpdate.java</file>
+        </group>
+    </open-files>
+</project-private>
