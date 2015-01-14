@@ -1,0 +1,285 @@
+2014-11-26 21:26:43 392 [Note] Plugin 'FEDERATED' is disabled.
+2014-11-26 21:26:43 392 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-11-26 21:26:43 392 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-11-26 21:26:43 392 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-11-26 21:26:43 392 [Note] InnoDB: Not using CPU crc32 instructions
+2014-11-26 21:26:43 392 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-11-26 21:26:43 392 [Note] InnoDB: Completed initialization of buffer pool
+2014-11-26 21:26:44 392 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-11-26 21:26:44 392 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1714143 in the ib_logfiles!
+2014-11-26 21:26:44 392 [Note] InnoDB: Database was not shutdown normally!
+2014-11-26 21:26:44 392 [Note] InnoDB: Starting crash recovery.
+2014-11-26 21:26:44 392 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-11-26 21:26:44 392 [Note] InnoDB: Restoring possible half-written data pages 
+2014-11-26 21:26:44 392 [Note] InnoDB: from the doublewrite buffer...
+2014-11-26 21:26:45 392 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-11-26 21:26:45 392 [Note] InnoDB: Waiting for purge to start
+2014-11-26 21:26:45 392 [Note] InnoDB: 5.6.13 started; log sequence number 1714143
+2014-11-26 21:26:45 392 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-11-26 21:26:45 392 [Note] IPv6 is available.
+2014-11-26 21:26:45 392 [Note]   - '::' resolves to '::';
+2014-11-26 21:26:45 392 [Note] Server socket created on IP: '::'.
+2014-11-26 22:00:33 6868 [Note] Plugin 'FEDERATED' is disabled.
+2014-11-26 22:00:33 6868 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-11-26 22:00:33 6868 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-11-26 22:00:33 6868 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-11-26 22:00:33 6868 [Note] InnoDB: Not using CPU crc32 instructions
+2014-11-26 22:00:33 6868 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-11-26 22:00:33 6868 [Note] InnoDB: Completed initialization of buffer pool
+2014-11-26 22:00:33 6868 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-11-26 22:00:33 6868 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1753165 in the ib_logfiles!
+2014-11-26 22:00:33 6868 [Note] InnoDB: Database was not shutdown normally!
+2014-11-26 22:00:33 6868 [Note] InnoDB: Starting crash recovery.
+2014-11-26 22:00:33 6868 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-11-26 22:00:33 6868 [Note] InnoDB: Restoring possible half-written data pages 
+2014-11-26 22:00:33 6868 [Note] InnoDB: from the doublewrite buffer...
+2014-11-26 22:00:34 6868 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-11-26 22:00:34 6868 [Note] InnoDB: Waiting for purge to start
+2014-11-26 22:00:34 6868 [Note] InnoDB: 5.6.13 started; log sequence number 1753165
+2014-11-26 22:00:34 6868 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-11-26 22:00:34 6868 [Note] IPv6 is available.
+2014-11-26 22:00:34 6868 [Note]   - '::' resolves to '::';
+2014-11-26 22:00:34 6868 [Note] Server socket created on IP: '::'.
+2014-11-28 16:27:31 6712 [Note] Plugin 'FEDERATED' is disabled.
+2014-11-28 16:27:31 6712 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-11-28 16:27:31 6712 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-11-28 16:27:31 6712 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-11-28 16:27:31 6712 [Note] InnoDB: Not using CPU crc32 instructions
+2014-11-28 16:27:32 6712 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-11-28 16:27:32 6712 [Note] InnoDB: Completed initialization of buffer pool
+2014-11-28 16:27:32 6712 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-11-28 16:27:32 6712 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1783448 in the ib_logfiles!
+2014-11-28 16:27:32 6712 [Note] InnoDB: Database was not shutdown normally!
+2014-11-28 16:27:32 6712 [Note] InnoDB: Starting crash recovery.
+2014-11-28 16:27:32 6712 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-11-28 16:27:32 6712 [Note] InnoDB: Restoring possible half-written data pages 
+2014-11-28 16:27:32 6712 [Note] InnoDB: from the doublewrite buffer...
+2014-11-28 16:27:34 6712 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-11-28 16:27:34 6712 [Note] InnoDB: Waiting for purge to start
+2014-11-28 16:27:34 6712 [Note] InnoDB: 5.6.13 started; log sequence number 1783448
+2014-11-28 16:27:34 6712 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-11-28 16:27:34 6712 [Note] IPv6 is available.
+2014-11-28 16:27:34 6712 [Note]   - '::' resolves to '::';
+2014-11-28 16:27:34 6712 [Note] Server socket created on IP: '::'.
+2014-12-02 08:30:56 4760 [Note] Plugin 'FEDERATED' is disabled.
+2014-12-02 08:30:56 4760 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-12-02 08:30:56 4760 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-12-02 08:30:56 4760 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-12-02 08:30:56 4760 [Note] InnoDB: Not using CPU crc32 instructions
+2014-12-02 08:30:56 4760 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-12-02 08:30:56 4760 [Note] InnoDB: Completed initialization of buffer pool
+2014-12-02 08:30:56 4760 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-12-02 08:30:56 4760 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1856398 in the ib_logfiles!
+2014-12-02 08:30:56 4760 [Note] InnoDB: Database was not shutdown normally!
+2014-12-02 08:30:56 4760 [Note] InnoDB: Starting crash recovery.
+2014-12-02 08:30:56 4760 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-12-02 08:30:57 4760 [Note] InnoDB: Restoring possible half-written data pages 
+2014-12-02 08:30:57 4760 [Note] InnoDB: from the doublewrite buffer...
+2014-12-02 08:30:57 4760 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-12-02 08:30:57 4760 [Note] InnoDB: Waiting for purge to start
+2014-12-02 08:30:58 4760 [Note] InnoDB: 5.6.13 started; log sequence number 1856398
+2014-12-02 08:30:58 4760 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-12-02 08:30:58 4760 [Note] IPv6 is available.
+2014-12-02 08:30:58 4760 [Note]   - '::' resolves to '::';
+2014-12-02 08:30:58 4760 [Note] Server socket created on IP: '::'.
+2014-12-18 09:16:07 6680 [Note] Plugin 'FEDERATED' is disabled.
+2014-12-18 09:16:07 6680 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-12-18 09:16:07 6680 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-12-18 09:16:07 6680 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-12-18 09:16:07 6680 [Note] InnoDB: Not using CPU crc32 instructions
+2014-12-18 09:16:07 6680 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-12-18 09:16:07 6680 [Note] InnoDB: Completed initialization of buffer pool
+2014-12-18 09:16:07 6680 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-12-18 09:16:07 6680 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1896933 in the ib_logfiles!
+2014-12-18 09:16:07 6680 [Note] InnoDB: Database was not shutdown normally!
+2014-12-18 09:16:07 6680 [Note] InnoDB: Starting crash recovery.
+2014-12-18 09:16:07 6680 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-12-18 09:16:08 6680 [Note] InnoDB: Restoring possible half-written data pages 
+2014-12-18 09:16:08 6680 [Note] InnoDB: from the doublewrite buffer...
+2014-12-18 09:16:09 6680 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-12-18 09:16:09 6680 [Note] InnoDB: Waiting for purge to start
+2014-12-18 09:16:09 6680 [Note] InnoDB: 5.6.13 started; log sequence number 1896933
+2014-12-18 09:16:09 6680 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-12-18 09:16:09 6680 [Note] IPv6 is available.
+2014-12-18 09:16:09 6680 [Note]   - '::' resolves to '::';
+2014-12-18 09:16:09 6680 [Note] Server socket created on IP: '::'.
+2014-12-18 09:16:37 4808 [Note] Plugin 'FEDERATED' is disabled.
+2014-12-18 09:16:37 4808 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-12-18 09:16:37 4808 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-12-18 09:16:37 4808 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-12-18 09:16:37 4808 [Note] InnoDB: Not using CPU crc32 instructions
+2014-12-18 09:16:37 4808 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-12-18 09:16:37 4808 [Note] InnoDB: Completed initialization of buffer pool
+2014-12-18 09:16:37 4808 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-12-18 09:16:37 4808 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1896943 in the ib_logfiles!
+2014-12-18 09:16:37 4808 [Note] InnoDB: Database was not shutdown normally!
+2014-12-18 09:16:37 4808 [Note] InnoDB: Starting crash recovery.
+2014-12-18 09:16:37 4808 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-12-18 09:16:37 4808 [Note] InnoDB: Restoring possible half-written data pages 
+2014-12-18 09:16:37 4808 [Note] InnoDB: from the doublewrite buffer...
+2014-12-18 09:16:38 4808 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-12-18 09:16:38 4808 [Note] InnoDB: Waiting for purge to start
+2014-12-18 09:16:38 4808 [Note] InnoDB: 5.6.13 started; log sequence number 1896943
+2014-12-18 09:16:38 4808 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-12-18 09:16:38 4808 [Note] IPv6 is available.
+2014-12-18 09:16:38 4808 [Note]   - '::' resolves to '::';
+2014-12-18 09:16:38 4808 [Note] Server socket created on IP: '::'.
+2014-12-18 09:16:59 6716 [Note] Plugin 'FEDERATED' is disabled.
+2014-12-18 09:16:59 6716 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-12-18 09:16:59 6716 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-12-18 09:16:59 6716 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-12-18 09:16:59 6716 [Note] InnoDB: Not using CPU crc32 instructions
+2014-12-18 09:16:59 6716 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-12-18 09:16:59 6716 [Note] InnoDB: Completed initialization of buffer pool
+2014-12-18 09:16:59 6716 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-12-18 09:16:59 6716 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1896953 in the ib_logfiles!
+2014-12-18 09:16:59 6716 [Note] InnoDB: Database was not shutdown normally!
+2014-12-18 09:16:59 6716 [Note] InnoDB: Starting crash recovery.
+2014-12-18 09:16:59 6716 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-12-18 09:16:59 6716 [Note] InnoDB: Restoring possible half-written data pages 
+2014-12-18 09:16:59 6716 [Note] InnoDB: from the doublewrite buffer...
+2014-12-18 09:17:00 6716 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-12-18 09:17:00 6716 [Note] InnoDB: Waiting for purge to start
+2014-12-18 09:17:00 6716 [Note] InnoDB: 5.6.13 started; log sequence number 1896953
+2014-12-18 09:17:00 6716 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-12-18 09:17:00 6716 [Note] IPv6 is available.
+2014-12-18 09:17:00 6716 [Note]   - '::' resolves to '::';
+2014-12-18 09:17:00 6716 [Note] Server socket created on IP: '::'.
+2014-12-18 09:17:00 6716 [Note] Event Scheduler: Loaded 0 events
+2014-12-18 09:17:00 6716 [Note] G:\programmeren 4 java\git\oefeningModuleBeheerSysteem\usbServer/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2014-12-18 09:17:05 4376 [Note] Plugin 'FEDERATED' is disabled.
+2014-12-18 09:17:05 4376 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-12-18 09:17:05 4376 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-12-18 09:17:05 4376 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-12-18 09:17:05 4376 [Note] InnoDB: Not using CPU crc32 instructions
+2014-12-18 09:17:05 4376 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-12-18 09:17:05 4376 [Note] InnoDB: Completed initialization of buffer pool
+2014-12-18 09:17:05 4376 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-12-18 09:17:05 4376 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1896979 in the ib_logfiles!
+2014-12-18 09:17:05 4376 [Note] InnoDB: Database was not shutdown normally!
+2014-12-18 09:17:05 4376 [Note] InnoDB: Starting crash recovery.
+2014-12-18 09:17:05 4376 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-12-18 09:17:05 4376 [Note] InnoDB: Restoring possible half-written data pages 
+2014-12-18 09:17:05 4376 [Note] InnoDB: from the doublewrite buffer...
+2014-12-18 09:17:06 4376 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-12-18 09:17:06 4376 [Note] InnoDB: Waiting for purge to start
+2014-12-18 09:17:06 4376 [Note] InnoDB: 5.6.13 started; log sequence number 1896979
+2014-12-18 09:17:06 4376 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-12-18 09:17:06 4376 [Note] IPv6 is available.
+2014-12-18 09:17:06 4376 [Note]   - '::' resolves to '::';
+2014-12-18 09:17:06 4376 [Note] Server socket created on IP: '::'.
+2014-12-19 16:47:11 7664 [Note] Plugin 'FEDERATED' is disabled.
+2014-12-19 16:47:11 7664 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-12-19 16:47:11 7664 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-12-19 16:47:11 7664 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-12-19 16:47:11 7664 [Note] InnoDB: Not using CPU crc32 instructions
+2014-12-19 16:47:11 7664 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-12-19 16:47:11 7664 [Note] InnoDB: Completed initialization of buffer pool
+2014-12-19 16:47:11 7664 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-12-19 16:47:11 7664 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1896989 in the ib_logfiles!
+2014-12-19 16:47:11 7664 [Note] InnoDB: Database was not shutdown normally!
+2014-12-19 16:47:11 7664 [Note] InnoDB: Starting crash recovery.
+2014-12-19 16:47:11 7664 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-12-19 16:47:11 7664 [Note] InnoDB: Restoring possible half-written data pages 
+2014-12-19 16:47:11 7664 [Note] InnoDB: from the doublewrite buffer...
+2014-12-19 16:47:12 7664 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-12-19 16:47:12 7664 [Note] InnoDB: Waiting for purge to start
+2014-12-19 16:47:12 7664 [Note] InnoDB: 5.6.13 started; log sequence number 1896989
+2014-12-19 16:47:12 7664 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-12-19 16:47:12 7664 [Note] IPv6 is available.
+2014-12-19 16:47:12 7664 [Note]   - '::' resolves to '::';
+2014-12-19 16:47:12 7664 [Note] Server socket created on IP: '::'.
+2014-12-19 19:26:53 8956 [Note] Plugin 'FEDERATED' is disabled.
+2014-12-19 19:26:53 8956 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-12-19 19:26:53 8956 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-12-19 19:26:53 8956 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-12-19 19:26:53 8956 [Note] InnoDB: Not using CPU crc32 instructions
+2014-12-19 19:26:53 8956 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-12-19 19:26:53 8956 [Note] InnoDB: Completed initialization of buffer pool
+2014-12-19 19:26:53 8956 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-12-19 19:26:53 8956 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 2081696 in the ib_logfiles!
+2014-12-19 19:26:53 8956 [Note] InnoDB: Database was not shutdown normally!
+2014-12-19 19:26:53 8956 [Note] InnoDB: Starting crash recovery.
+2014-12-19 19:26:53 8956 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2014-12-19 19:26:53 8956 [Note] InnoDB: Restoring possible half-written data pages 
+2014-12-19 19:26:53 8956 [Note] InnoDB: from the doublewrite buffer...
+2014-12-19 19:26:54 8956 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-12-19 19:26:54 8956 [Note] InnoDB: Waiting for purge to start
+2014-12-19 19:26:54 8956 [Note] InnoDB: 5.6.13 started; log sequence number 2081696
+2014-12-19 19:26:54 8956 [Note] Server hostname (bind-address): '*'; port: 3307
+2014-12-19 19:26:54 8956 [Note] IPv6 is available.
+2014-12-19 19:26:54 8956 [Note]   - '::' resolves to '::';
+2014-12-19 19:26:54 8956 [Note] Server socket created on IP: '::'.
+2014-12-19 19:26:54 8956 [Note] Event Scheduler: Loaded 0 events
+2014-12-19 19:26:54 8956 [Note] G:\programmeren 4 java\usbServer/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2014-12-19 20:16:50 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:17:01 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:17:01 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:17:31 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:17:40 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:17:40 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:04 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:04 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:04 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_snack from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:06 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:06 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:06 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_snack from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:07 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:07 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:09 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_friet from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:13 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:14 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:14 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:15 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:16 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:16 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:16 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:16 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_saus from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:20 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_snack from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:20 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_snack from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:21 8956 [Warning] InnoDB: Cannot open table frituurdb/tbl_snack from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-12-19 20:18:39 20a0  InnoDB: Error: table `frituurdb`.`tbl_friet` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html
+2014-12-19 20:18:39 20a0  InnoDB: Error: table `frituurdb`.`tbl_saus` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html
+2014-12-19 20:18:39 20a0  InnoDB: Error: table `frituurdb`.`tbl_snack` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html
+2014-12-19 20:32:45 8956 [Warning] InnoDB: Tablespace 'frituurdb/tbl_snack' exists in the cache with id 20 != 33
+2014-12-19 20:32:45 8956 [Warning] InnoDB: Freeing existing tablespace 'frituurdb/tbl_snack' entry from the cache with id 33
+2014-12-19 20:35:52 8956 [Warning] InnoDB: Tablespace 'frituurdb/tbl_friet' exists in the cache with id 18 != 34
+2014-12-19 20:35:52 8956 [Warning] InnoDB: Freeing existing tablespace 'frituurdb/tbl_friet' entry from the cache with id 34
+2014-12-19 20:36:25 8956 [Warning] InnoDB: Tablespace 'frituurdb/tbl_saus' exists in the cache with id 19 != 35
+2014-12-19 20:36:25 8956 [Warning] InnoDB: Freeing existing tablespace 'frituurdb/tbl_saus' entry from the cache with id 35
