@@ -4,3 +4,6 @@ Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
 2015-01-06 19:05:19 5300 [Note] Event Scheduler: Loaded 0 events
 2015-01-06 19:05:19 5300 [Note] E:\informatica\programmeren 4 java\usbServer/mysql/bin/mysqld_usbwv8.exe: ready for connections.
 Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2015-01-14 20:48:09 1588 [Note] Event Scheduler: Loaded 0 events
+2015-01-14 20:48:09 1588 [Note] D:\informatica\programmeren 4 java\git\Frituur\usbServer/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)

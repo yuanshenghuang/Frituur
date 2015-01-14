@@ -1,5 +1,5 @@
-[Wed Jan 14 09:20:32.953305 2015] [mpm_winnt:notice] [pid 3156:tid 528] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Wed Jan 14 09:20:32.953305 2015] [mpm_winnt:notice] [pid 3156:tid 528] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Wed Jan 14 09:20:32.953305 2015] [core:notice] [pid 3156:tid 528] AH00094: Command line: 'D:\\informatica\\programmeren 4 java\\usbServer/apache2/bin/httpd_usbwv8.exe -d D:/informatica/programmeren 4 java/usbServer/apache2'
-[Wed Jan 14 09:20:32.968949 2015] [mpm_winnt:notice] [pid 3156:tid 528] AH00418: Parent: Created child process 5364
-[Wed Jan 14 09:20:33.375185 2015] [mpm_winnt:notice] [pid 5364:tid 548] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 14 20:48:09.550534 2015] [mpm_winnt:notice] [pid 1564:tid 556] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Wed Jan 14 20:48:09.550534 2015] [mpm_winnt:notice] [pid 1564:tid 556] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Wed Jan 14 20:48:09.550534 2015] [core:notice] [pid 1564:tid 556] AH00094: Command line: 'D:\\informatica\\programmeren 4 java\\git\\Frituur\\usbServer/apache2/bin/httpd_usbwv8.exe -d D:/informatica/programmeren 4 java/git/Frituur/usbServer/apache2'
+[Wed Jan 14 20:48:09.566162 2015] [mpm_winnt:notice] [pid 1564:tid 556] AH00418: Parent: Created child process 2204
+[Wed Jan 14 20:48:10.019291 2015] [mpm_winnt:notice] [pid 2204:tid 556] AH00354: Child: Starting 64 worker threads.

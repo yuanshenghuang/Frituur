@@ -20,9 +20,14 @@
     <head>
       
         <title>JSP Page</title>
-       
+         <script type="text/javascript">
+           function readCookie(ypos){
+            return(document.cookie.match('(^|; )'+ypos+'=([^;]*)')||0)[2]
+            }
+        </script>
     </head>
-    <body >
+    
+    <body onScroll="document.cookie='ypos=' + window.pageYOffset" onLoad="window.scrollTo(0,readCookie('ypos'))">
         <%
             
             //get categories
@@ -103,28 +108,53 @@
          <br/> 
          <br/>
              
-         <form method="post"  action="CProductToevoegen">
-            
-             
-            <div class="row">
-                 <%for(TblProduct product : productSortByCategory)
-                    {
+       <%for(TblProduct product : productSortByCategory)
+        {
+       %>
+             <article id="lijst">  
+                   <form method="post"  action="CProductToevoegen">
+                     <ul class="list-group">
+                      
+                      <li class="list-group-item">
+                        <span class="badge">     
+                                <input type="hidden" name="id" id="selected" value="<%= product.getId()%>">
+                                <button type="submit" id="buttonsubmit" onclick="  OnClickButton();"  > + </button>                             
+                        </span>
+                        <span class="badge"> <%= product.getPrijs() %> </span>
 
-                 %>
-                 
-                 <div class="col-md-2">  <button type="submit" name="id" id="productid" style=" border:none " value="<%= product.getId()%>" onclick="  OnClickButton();">  <%= product.getName()%> &nbsp;&nbsp;  €<%= product.getPrijs()%> </button>  </div>
-                  <%
-                    }
-                  %>
-            </div>
-           
-            <br/>
-            <br/>
-                
-            <button type="button" id="bestellijst" name="bestellijst"  > <a href=" <%= listCartItems == null? "javascript:void(0);"  : "cart.jsp"  %>   "> naar bestellijst </a>  </button>
+                         <%=product.getName()%>
+                      </li>                  
+                      
+                    </ul> 
+                   </form>
+                </article>
+        <%
+        }
+        %>
+            <ul class="list-group" id="lijst1">
+                <li class="list-group-item">
+                   <button type="button" id="bestellijst" name="bestellijst"  > <a href=" <%= listCartItems == null? "javascript:void(0);"  : "cart.jsp"  %>   "> naar bestellijst </a>  </button>
+                   </li>
+            </ul>    
+          
             
-            
-        </form>
+       <aside> 
+           <ul class="list-group">
+               <li class="list-group-item">artikelen in winkelwagentje</li>
+            <%
+                for(TblCartitem cartitem : listCartItems)
+                {
+            %>                                     
+                      <li class="list-group-item">                      
+                        <span class="badge"> <%= cartitem.getQuantity() %>  </span>
+                            <%= cartitem.getTblProduct().getName() %>                        
+                      </li>                 
+            <%
+                }
+            %>  
+            </ul>
+       </aside>     
+      
        
      </div>    
     </body>

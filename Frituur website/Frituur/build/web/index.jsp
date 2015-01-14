@@ -17,21 +17,16 @@
 <html>
     <head>     
        
-        <title>JSP Page</title>
-        
-        <style>
-            #lijst,#lijst1{
-                width: 40%;
-                margin-left: 25%;              
-            }  
-            
-            #buttonsubmit{
-                color:#cd0a0a;
-            }  
-           
-        </style>
+        <title>JSP Page</title>       
+      
+        <script type="text/javascript">
+           function readCookie(ypos){
+            return(document.cookie.match('(^|; )'+ypos+'=([^;]*)')||0)[2]
+            }
+        </script>
     </head>
-    <body>
+    <body onScroll="document.cookie='ypos=' + window.pageYOffset" onLoad="window.scrollTo(0,readCookie('ypos'))">
+        
      <div class="container">
        
          
@@ -114,13 +109,13 @@
             for(TblProduct product : productSortByCategory)
             {
            %> 
-                <div id="lijst">
-                    <form method="post" action="CProductToevoegen">  
+                <article id="lijst">
+                    <form method="post" action="CProductToevoegen" onsubmit="refreshPage()">  
                      <ul class="list-group">
                       
                       <li class="list-group-item">
                         <span class="badge">     
-                                <input type="hidden" name="id" value="<%= product.getId() %>">
+                                <input type="hidden" name="id" id="selected" value="<%= product.getId() %>">
                                 <button type="submit" id="buttonsubmit"  > + </button>                             
                         </span>
                         <span class="badge"> <%= product.getPrijs() %> </span>
@@ -130,7 +125,7 @@
 
                     </ul>
                    </form>
-                </div>
+                </article>
        <%               
            }
         }
@@ -140,8 +135,27 @@
                    <button type="button" id="bestellijst" name="bestellijst"  > <a href=" <%= listCartItems == null? "javascript:void(0);"  : "cart.jsp"  %>   "> naar bestellijst </a>  </button>
                    </li>
             </ul>
+            
                    
-      </div>           
-    
+       <aside> 
+           <ul class="list-group">
+               <li class="list-group-item">artikelen in winkelwagentje</li>
+            <%
+                for(TblCartitem cartitem : listCartItems)
+                {
+            %>                                     
+                      <li class="list-group-item">                      
+                        <span class="badge"> <%= cartitem.getQuantity() %>  </span>
+                            <%= cartitem.getTblProduct().getName() %>                        
+                      </li>                 
+            <%
+                }
+            %>  
+            </ul>
+       </aside>           
+                   
+                   
+      </div>             
     </body>
+  
 </html>
