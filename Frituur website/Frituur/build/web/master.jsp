@@ -29,20 +29,32 @@
         <link href="jq/jquery-ui.theme.min.css" rel="stylesheet" type="text/css"/>
         <script src="jq/jquery-ui-timepicker-addon.js" type="text/javascript"></script>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        
+      
+         <script type="text/javascript">
+            if (product.jsp.closed === true && index.jsp.closed === true && klantgegevens.jsp.closed === true && contact.jsp.closed === true && checkout.jsp.closed === true && master.jsp.closed === true && cart.jsp.closed === true) 
+            { 
+            window.close(); 
+            session.invalidate(); 
+            } 
+         </script>
+        
     </head>
     
-    <body>
-     
-                
-               <script type="text/javascript">
-                if (product.jsp.closed === true && index.jsp.closed === true && klantgegevens.jsp.closed === true && contact.jsp.closed === true && checkout.jsp.closed === true && master.jsp.closed === true && cart.jsp.closed === true) 
-                { 
-                window.close(); 
-                session.invalidate(); 
-                } 
-               </script>
-               
-        
-    </body>
-    
+     <body >
+
+        <div class="container">
+            <header> 
+
+            </header> 
+            <div id="midden">
+
+            </div>
+            <footer>
+                 
+            </footer>
+
+        </div>
+     </body>
+  
 </html>

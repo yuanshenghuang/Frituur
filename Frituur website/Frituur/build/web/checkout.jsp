@@ -21,7 +21,8 @@
       %>
         <div class="container">
             
-         <nav class="navbar navbar-default">
+             <header>  
+                 <nav class="navbar navbar-default">
                     <ul class="nav navbar-nav">
                         <li>
                             <a href="index.jsp" target="_self">Home</a>
@@ -33,12 +34,15 @@
                             <a href="contact.jsp">Contact</a>
                         </li>                       
                     </ul>
-         </nav>
-        <h1>check out</h1>
-           
-         <div class="alert alert-success" role="alert"> bestellingsnummer: <%= bestelling.getId() %>  klantnaam: <%= bestelling.getKlantnaam()%>  is successvol doorgestuurd </div>
-        
-        </div>
-        
-    </body>
+                 </nav>
+            </header> 
+
+            <div id="midden">
+                 <div class="alert alert-success" role="alert"> bestellingsnummer: <%= bestelling.getId() %>  klantnaam: <%= bestelling.getKlantnaam()%>  is successvol doorgestuurd </div>
+            </div>
+
+            <footer></footer>
+            
+        </div>        
+    </body>  
 </html>

@@ -28,25 +28,10 @@
             }
         </style>
         <title>JSP Page</title>
-      
+       
     </head>
     <body>
-     
-      <div class="container">
-          
-        <nav class="navbar navbar-default">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="index.jsp" target="_self">Home</a>
-                        </li>                       
-                        <li>
-                            <a href="contact.jsp">Contact</a>
-                        </li>                       
-                    </ul>
-         </nav>
-        <h1>cart item</h1>
-        
-        <%  
+      <%  
             //alle categorieën opvragen
             ArrayList<TblCategory> listcategory = CategoryService.selectAll();
             
@@ -80,52 +65,73 @@
             
           %>
           
-          <section>
-           <ul class="nav navbar-nav">
-              
-                    <%for(TblCategory category :listcategory)
-                    {
-
-                    %>
-                    <li>   <a href="CBepaalCategory?id=<%= category.getId() %>" > <%= category.getName()%> </a>  </li> 
-
-                    <%
-                    }
-                    %>                               
-          </ul>
-          </section>           
-                    
-        <form method="post" action="CRemoveCartItem">
+      <div class="container">
+        
+       <header>
+            <nav class="navbar navbar-default">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="index.jsp" target="_self">Home</a>
+                            </li>                       
+                            <li>
+                                <a href="contact.jsp">Contact</a>
+                            </li>                       
+                        </ul>
+             </nav>
+       </header>   
             
-            <select multiple="multiple" size="10" name="cartitem" id="cartitem" class="list-group"  >                 
-                  
-                  <%
-                    for(int i =0; i< list.size(); i++) 
-                    {
-                      
-                    
-                  %>
-                  
-                  <option value="<%=  i   %>" class="list-group-item" > 
-                      
-                      <%=  list.get(i) %> 
-                        
-                  </option>                 
-                     
-                   <%               
-                     }
-                   %>
-
-            </select>
-                   
-            <div class="alert alert-success" role="alert"> totaal met btw : €<%=   format.format(totaal) %> </div>
-            
-            <button class="btn btn-default" type="submit" name="action"  >  remove selected item/reduce quantity  </button>        
-        </form>       
+          
+       <div id="midden">            
                 
-        <button class="btn btn-default" type="button" ><a href="CEmptyCart" >empty cart</a> </button> 
-        <button class="btn btn-default" type="button" ><a href="klantgegevens.jsp"  >  verder gaan </a> </button>
-      
+              <section>
+                   <ul class="nav navbar-nav">
+
+                        <%for(TblCategory category :listcategory)
+                        {
+
+                        %>
+                        <li>   <a href="CBepaalCategory?id=<%= category.getId() %>" > <%= category.getName()%> </a>  </li> 
+
+                        <%
+                        }
+                        %>                               
+                  </ul>
+              </section>           
+
+            <form method="post" action="CRemoveCartItem">
+
+                <select multiple="multiple" size="10" name="cartitem" id="cartitem" class="list-group"  >                 
+
+                      <%
+                        for(int i =0; i< list.size(); i++) 
+                        {
+
+
+                      %>
+
+                      <option value="<%=  i   %>" class="list-group-item" > 
+
+                          <%=  list.get(i) %> 
+
+                      </option>                 
+
+                       <%               
+                         }
+                       %>
+
+                </select>
+
+                <div class="alert alert-success" role="alert"> totaal met btw : €<%=   format.format(totaal) %> </div>
+
+                <button class="btn btn-default" type="submit" name="action"  >  remove selected item/reduce quantity  </button>  
+                <button class="btn btn-default" type="button" ><a href="CEmptyCart" >empty cart</a> </button> 
+                <button class="btn btn-default" type="button" ><a href="klantgegevens.jsp"  >  verder gaan </a> </button>
+            </form>       
+
+       </div>
+       <footer>
+       </footer>
      </div>
     </body>
+  
 </html>
