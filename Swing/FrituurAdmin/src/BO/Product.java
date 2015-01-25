@@ -61,7 +61,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return name + " " + prijs + " " + categoryid;
+        return name + " €" + prijs + "     categorie id: " + categoryid;
     }
     
   

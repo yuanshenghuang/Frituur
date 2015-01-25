@@ -24,7 +24,7 @@ public class CategoryDal
 {
     public static Connection getConnection() throws SQLException
     {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3307/frituurdb","root","usbw");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3307/frietendb","root","usbw");
     }
     
     public static ArrayList<Category> selectAll()

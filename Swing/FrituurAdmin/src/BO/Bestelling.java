@@ -78,9 +78,9 @@ public class Bestelling
         return
                 "Bestellingsnr: " + id + " \n"
               + "klantnaam: " + klantnaam + "\n"
-              + "afhaaltijd: " + afhaaltijd +"\n"
+              + "afhaaltijd: " + afhaaltijd +"\n\n"
               + lijst + "\n"
-              + "totaal: " + totaal +"\n\n" ; 
+              + "totaal: €" + totaal +"\n\n\n" ; 
             
     }
     
