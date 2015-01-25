@@ -21,7 +21,7 @@ import org.hibernate.Query;
 public class TblCartitem  implements java.io.Serializable {
 
      
-     private Integer id;
+     private Integer id=1;
      private TblProduct tblProduct;
      private int quantity;
 
@@ -42,7 +42,7 @@ public class TblCartitem  implements java.io.Serializable {
     }
     
     public void setId(Integer id) {
-        this.id = id;
+        this.id += id;
     }
     public TblProduct getTblProduct() {
         return this.tblProduct;
@@ -95,11 +95,11 @@ public class TblCartitem  implements java.io.Serializable {
         return null;
         
     }
-   
+  
 
     @Override
     public String toString() {
-        return  tblProduct + "       x " + quantity ;
+        return  tblProduct.getName() +" €" + tblProduct.getPrijs()+ "       x " + quantity ;
     }
 
    

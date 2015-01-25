@@ -60,8 +60,17 @@ public class CRemoveCartItem extends HttpServlet {
         }
         
         session.setAttribute("list", list);
+        
+        if(list.size() > 0)
+        {
+             response.sendRedirect("cart.jsp");
+        } 
+        else
+        {
+            response.sendRedirect("index.jsp");
+        }
 
-        response.sendRedirect("cart.jsp");
+      
    
         
         

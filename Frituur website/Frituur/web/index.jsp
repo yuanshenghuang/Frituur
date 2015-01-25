@@ -18,14 +18,10 @@
     <head>     
 
         <title>index</title>       
-        <script type="text/javascript">
-           function readCookie(ypos){
-            return(document.cookie.match('(^|; )'+ypos+'=([^;]*)')||0)[2]
-            }
-        </script>
+       
 
     </head>
-    <body onScroll="document.cookie='ypos=' + window.pageYOffset" onLoad="window.scrollTo(0,readCookie('ypos'))">
+    <body >
             <%  //lijst van alle categorieën          
                 ArrayList<TblCategory> listcategory = CategoryService.selectAll();          
 
@@ -52,11 +48,24 @@
                           quantity +=  cartitem.getQuantity();
                         }
                     }
-
-
                      totaal = count + quantity -teller;
                 }
             %>
+            
+            <script type="text/javascript">
+            function Check()
+            {                            
+                    if(<%=listCartItems == null%>)
+                    {                
+                        document.getElementById('bestellijstlink').disabled=true;               
+                    }
+                    else
+                    {               
+                       return document.getElementById('bestellijstlink').href = "cart.jsp";                         
+              
+                    }                       
+            }
+            </script>
      <div class="container">
            
          <header> 
@@ -69,7 +78,7 @@
                         <a href="contact.jsp">Contact</a>
                     </li>   
                     <li>
-                     <label id="aantal" name="aantal"   > 
+                     <label id="aantal" > 
                         aantal items in cart: <%= totaal%>
                      </label>                   
                     </li> 
@@ -104,11 +113,11 @@
 
 
                <%
-                for(TblProduct product : productSortByCategory)
-                {
+                  for(TblProduct product : productSortByCategory)
+                  {
                %> 
                     <article id="lijst">
-                        <form method="post" action="CProductToevoegen" onsubmit="refreshPage()">  
+                        <form method="post" action="CProductToevoegen" >  
                          <ul class="list-group">
 
                           <li class="list-group-item">
@@ -116,45 +125,57 @@
                                     <input type="hidden" name="id" id="selected" value="<%= product.getId() %>">
                                     <button type="submit" id="buttonsubmit"  > + </button>                             
                             </span>
-                            <span class="badge"> <%= product.getPrijs() %> </span>
+                            <span class="badge"> €<%= product.getPrijs() %> </span>
 
                              <%=product.getName()%>
                           </li>                  
 
-                        </ul>
-                       </form>
+                         </ul>
+                        </form>
                     </article>
                <%               
                    }
                 }
                %>
-                <ul class="list-group" id="lijst1">
-                    <li class="list-group-item">
-                       <button type="button" id="bestellijst" name="bestellijst"  > <a href=" <%= listCartItems == null? "javascript:void(0);"  : "cart.jsp"  %>   "> naar bestellijst </a>  </button>
-                       </li>
-                </ul>
+               
 
 
-           <aside> 
-               <ul class="list-group">
+           <aside > 
+               <ul class="list-group" >
                    <li class="list-group-item">artikelen in winkelwagentje</li>
+                   
                 <%
                     if(listCartItems != null)
                     {
-                    for(TblCartitem cartitem : listCartItems)
-                    {
+                        for(TblCartitem cartitem : listCartItems)
+                        {
                 %>                                     
                           <li class="list-group-item">                      
                             <span class="badge"> <%= cartitem.getQuantity() %>  </span>
                                 <%= cartitem.getTblProduct().getName() %>                        
                           </li>                 
                 <%
-                    }
+                        }
+                %>
+                     <%--<li class="list-group-item">
+                           <button type="button" id="bestellijst" name="bestellijst"  > <a href="#" onclick="Check();" id="bestellijstlink"> naar bestellijst </a>  </button>
+                         </li>
+                     --%>
+                     <%--
+                         <li class="list-group-item">
+                          <a href=" <%= listCartItems == null? "javascript:void(0)": "cart.jsp" %>" > <button type="button" id="bestellijst" name="bestellijst"> <b>naar bestellijst</b> </button> </a>  
+                         </li>
+                     --%>
+                     <li class="list-group-item">
+                          <%--<button type="button" id="bestellijst" name="bestellijst"  > <a href="cart.jsp" > naar bestellijst </a>  </button>--%>
+                           <a href="cart.jsp"> <button type="button" id="bestellijst" name="bestellijst"> <b>naar bestellijst</b> </button> </a>
+                     </li>
+                <%
                     }
                 %>  
                 </ul>
            </aside>           
-
+ 
           </div>   
         <footer>
         </footer>

@@ -9,6 +9,7 @@ and open the template in the editor.
 */
 body{
      background-color:#9acfea;
+  
 }
 
 header{
@@ -19,6 +20,7 @@ header{
 #midden{
     width:100%;
     height:80%;
+    position:relative;
 }
 #footer{
     width:100%;
@@ -49,15 +51,22 @@ header nav ul li label{
         
 }
 
-    
-
-#midden aside ul{   
-    position:fixed;
-    right: 15%;
+#midden aside{
+      
+    width:20%;
+    height:30%;
+    right: 10%;
     top:20%;
-    width:12%;
-    height: 30%;
+    position:fixed;     
+}    
+
+#midden aside  ul{   
+    overflow-y:auto;
+    width:100%;
+    height: 100%;   
 }
+
+
 
 #midden article form ul li span button{
      color:#cd0a0a;

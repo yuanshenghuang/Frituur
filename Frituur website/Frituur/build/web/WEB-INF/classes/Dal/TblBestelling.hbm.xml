@@ -3,7 +3,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated 2-jan-2015 14:32:06 by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="Dal.TblBestelling" table="tbl_bestelling" catalog="frituurdb" optimistic-lock="version">
+    <class name="Dal.TblBestelling" table="tbl_bestelling" catalog="frietendb" optimistic-lock="version">
         <id name="id" type="java.lang.Integer">
             <column name="id" />
             <generator class="identity" />

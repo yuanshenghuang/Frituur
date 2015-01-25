@@ -37,11 +37,17 @@
             window.close(); 
             session.invalidate(); 
             } 
+            
+           
+           function readCookie(ypos){
+            return(document.cookie.match('(^|; )'+ypos+'=([^;]*)')||0)[2]
+            }                      
+       
          </script>
         
     </head>
     
-     <body >
+     <body onScroll="document.cookie='ypos=' + window.pageYOffset" onLoad="window.scrollTo(0,readCookie('ypos'))">
 
         <div class="container">
             <header> 

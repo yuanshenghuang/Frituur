@@ -10,7 +10,7 @@
         </session-timeout>
     </session-config>
     
-     <listener>
+    <listener>
     <description>sessionListener</description>
     <listener-class>
         net.viralpatel.servlet.listener.SessionListener

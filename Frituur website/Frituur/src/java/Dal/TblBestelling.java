@@ -10,7 +10,7 @@ public class TblBestelling  implements java.io.Serializable {
 
 
      private Integer id;
-     private String lijst;
+     private String lijst="";
      private double totaal;
      private String klantnaam;
      private String afhaaltijd;
@@ -18,9 +18,9 @@ public class TblBestelling  implements java.io.Serializable {
     public TblBestelling() {
     }
 
-    public TblBestelling(int id ,String lijst, double totaal, String klantnaam, String afhaaltijd) {
+    public TblBestelling(int id ,TblCartitem item, double totaal, String klantnaam, String afhaaltijd) {
        this.id = id;
-       this.lijst = lijst;
+       this.lijst += item+"\n";
        this.totaal = totaal;
        this.klantnaam = klantnaam;
        this.afhaaltijd = afhaaltijd;

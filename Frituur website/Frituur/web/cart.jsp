@@ -27,8 +27,18 @@
                  width: 100%;
             }
         </style>
-        <title>JSP Page</title>
-       
+        <title>cart</title>
+        <script type="text/javascript">
+            function submitform()
+            {
+                var dd1=document.forms[0].cartitem.options[document.forms[0].cartitem.selectedIndex].value; 
+               
+                if(dd1 !== null)
+                {
+                     document.forms["myform"].submit();
+                }                
+            }     
+        </script>
     </head>
     <body>
       <%  
@@ -45,7 +55,7 @@
             {
                 @Override
                 public int compare(TblCartitem  item1, TblCartitem  item2)
-                {
+                {//vergelijk de categorie van item1 met de categorie van item2
                     return  item1.getTblProduct().getTblCategory().getName().compareTo(item2.getTblProduct().getTblCategory().getName());
                 }
             } );
@@ -98,15 +108,13 @@
                   </ul>
               </section>           
 
-            <form method="post" action="CRemoveCartItem">
+             <form method="post" id="myform" action="CRemoveCartItem" >
 
                 <select multiple="multiple" size="10" name="cartitem" id="cartitem" class="list-group"  >                 
 
                       <%
                         for(int i =0; i< list.size(); i++) 
                         {
-
-
                       %>
 
                       <option value="<%=  i   %>" class="list-group-item" > 
@@ -123,11 +131,12 @@
 
                 <div class="alert alert-success" role="alert"> totaal met btw : €<%=   format.format(totaal) %> </div>
 
-                <button class="btn btn-default" type="submit" name="action"  >  remove selected item/reduce quantity  </button>  
-                <button class="btn btn-default" type="button" ><a href="CEmptyCart" >empty cart</a> </button> 
-                <button class="btn btn-default" type="button" ><a href="klantgegevens.jsp"  >  verder gaan </a> </button>
-            </form>       
-
+              <%-- <button class="btn btn-default" type="submit" name="action"  ><a href="javascript: submitform()" >  remove selected item/reduce quantity </a> </button>  --%>
+              <a href="javascript: submitform()" class="btn btn-primary btn-lg active" role="button">  remove selected item/reduce quantity </a>
+            </form>      
+               <br/>
+               <a  href="CEmptyCart" class="btn btn-primary btn-lg active" role="button"> empty cart </a> 
+               <a href="klantgegevens.jsp"  class="btn btn-primary btn-lg active" role="button"> verder gaan </a> 
        </div>
        <footer>
        </footer>

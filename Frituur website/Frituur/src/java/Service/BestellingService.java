@@ -28,7 +28,7 @@ public class BestellingService
         }
         catch(RuntimeException ex)
         {
-            ex.getMessage();
+            System.out.println(ex.getMessage());
         }
         finally
         {
